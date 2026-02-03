@@ -16,23 +16,17 @@ This guide will walk you through the steps to set up and run the application usi
 Open your terminal or command prompt and run:
 
 ```bash
-git clone https://github.com/thachoden/SIT725_ProjectT3
+git clone https://github.com/thachoden/Dockerization.git
 ```
 
 ---
 
-## Step 2: Switch to the `thac-docker` Branch
+## Step 2: Navigate to clone location
 
 Navigate into the cloned repository folder:
 
 ```bash
 cd replace-with-local-folder-path
-```
-
-Then switch to the `thac-docker` branch:
-
-```bash
-git checkout thac-docker
 ```
 
 ---
@@ -107,7 +101,7 @@ http://localhost:5000/faq
 You can view a product by:
 1. Choosing a category card, all available products will be display.
 2. Click on the product card, you should be redirected to the details prduct page.
---> If you able to perform these action, this indicated that all services in the app which include views, backend API, and databse have been properly dockerized.
+--> Because there are no hard coded data in the source code, if you able to perform these action, this indicated that all services in the app which include views, backend API, and databse have been properly dockerized.
 ---
 ## Troubleshooting
 
@@ -121,6 +115,7 @@ docker compose down
 ---
 
 Feel free to reach out if you encounter any issues during setup!
+
 
 
 
